@@ -1,10 +1,10 @@
 // created by elliott roach
 // created on feb 2026
-// this blingks a light on and off
+// this blinks a light on and off
 
 
 void setup() {
-    // inisolizing pins
+    // initializing pins
     pinMode(LED_BUILTIN, OUTPUT);
 }
 
