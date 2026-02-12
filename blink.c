@@ -10,7 +10,7 @@ void setup() {
 
 
 void loop() {
-    // this blinks the light
+    // this blinks the light in infinent loop
     digitalWrite(LED_BUILTIN, HIGH);
     delay(1000);
     digitalWrite(LED_BUILTIN, LOW);
