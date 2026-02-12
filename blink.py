@@ -1,8 +1,8 @@
-"""
-made by elliott roach
-made feb 2026
-this blinks a light on and off
-"""
-
-def main() -> None:
-    
+import machine
+import utime
+led = machine.Pin(25, machine.Pin.OUT)
+while True:
+    led.value(1)
+    utime.sleep(1)
+    led.value(0)
+    utime.sleep(1)
