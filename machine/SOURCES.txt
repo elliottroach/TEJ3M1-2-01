@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+data/data_file
+machine.egg-info/PKG-INFO
+machine.egg-info/SOURCES.txt
+machine.egg-info/dependency_links.txt
+machine.egg-info/entry_points.txt
+machine.egg-info/requires.txt
+machine.egg-info/top_level.txt
+sample/__init__.py
+sample/package_data.dat
