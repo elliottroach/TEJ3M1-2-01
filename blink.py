@@ -1,11 +1,14 @@
-import machine
-import utime
+# SPDX-FileCopyrightText: 2021 Kattni Rembor for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
 
-led = machine.Pin(25, machine.Pin.OUT)
+"""Example for Pico. Turns on the built-in LED."""
+import board
+import digitalio
+
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
 
 while True:
-    led.value(1)
-    utime.sleep(1)
-    led.value(0)
-    utime.sleep(1)
-
+    led.value = True
+    
