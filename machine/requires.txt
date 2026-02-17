@@ -1,7 +1,0 @@
-pycrypto
-
-[dev]
-check-manifest
-
-[test]
-coverage
