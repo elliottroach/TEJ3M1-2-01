@@ -8,8 +8,10 @@ import board
 import digitalio
 import time
 
+# setup
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
+
 
 while True:
     led.value = True
